@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>549384024491-qvehaki58ivc2hv5felia2a9tg5ui3qg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.549384024491-qvehaki58ivc2hv5felia2a9tg5ui3qg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBf0iOQHfY1NNJ4HnFzBx_7TX7R4KTdgqo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>549384024491</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ua.OleksandrKhalypa.Test-Lottie</string>
+	<key>PROJECT_ID</key>
+	<string>test-lottie-6d813</string>
+	<key>STORAGE_BUCKET</key>
+	<string>test-lottie-6d813.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:549384024491:ios:d1e058589842b165e962ee</string>
+</dict>
+</plist>

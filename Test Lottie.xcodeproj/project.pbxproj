@@ -7,28 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1B636D26DE0213004C8DE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B636C26DE0213004C8DE6 /* GoogleService-Info.plist */; };
 		1F30293426D3F61A00BFED6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F30293326D3F61A00BFED6B /* AppDelegate.swift */; };
 		1F30293626D3F61A00BFED6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F30293526D3F61A00BFED6B /* SceneDelegate.swift */; };
-		1F30293826D3F61A00BFED6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F30293726D3F61A00BFED6B /* ViewController.swift */; };
+		1F30293826D3F61A00BFED6B /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F30293726D3F61A00BFED6B /* LaunchScreenVC.swift */; };
 		1F30293B26D3F61A00BFED6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F30293926D3F61A00BFED6B /* Main.storyboard */; };
 		1F30293D26D3F61C00BFED6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F30293C26D3F61C00BFED6B /* Assets.xcassets */; };
 		1F30294026D3F61C00BFED6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F30293E26D3F61C00BFED6B /* LaunchScreen.storyboard */; };
 		1F30294926D3F86500BFED6B /* appstart_loading_tray.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F30294726D3F86400BFED6B /* appstart_loading_tray.json */; };
 		1F30294A26D3F86500BFED6B /* appstart_loading_smash.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F30294826D3F86500BFED6B /* appstart_loading_smash.json */; };
+		1F64571226DCB98600A366E7 /* InputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64571126DCB98600A366E7 /* InputType.swift */; };
+		1F64571426DCBB7200A366E7 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64571326DCBB7200A366E7 /* UIFont+Additions.swift */; };
+		1F64571626DCC39400A366E7 /* OrderWallHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64571526DCC39400A366E7 /* OrderWallHeaderVC.swift */; };
+		1F64571826DCCD4A00A366E7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64571726DCCD4A00A366E7 /* ListView.swift */; };
+		1F64571A26DCEBA500A366E7 /* OrderWallHeader+Intructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64571926DCEBA500A366E7 /* OrderWallHeader+Intructions.swift */; };
 		9918753437FA743A065D909A /* Pods_Test_Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C437B19640AD9D75FCB9F5A /* Pods_Test_Lottie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1B636C26DE0213004C8DE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F30293026D3F61A00BFED6B /* Test Lottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Lottie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F30293326D3F61A00BFED6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F30293526D3F61A00BFED6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F30293726D3F61A00BFED6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F30293726D3F61A00BFED6B /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
 		1F30293A26D3F61A00BFED6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F30293C26D3F61C00BFED6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F30293F26D3F61C00BFED6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F30294126D3F61C00BFED6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F30294726D3F86400BFED6B /* appstart_loading_tray.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstart_loading_tray.json; sourceTree = "<group>"; };
 		1F30294826D3F86500BFED6B /* appstart_loading_smash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstart_loading_smash.json; sourceTree = "<group>"; };
+		1F64571126DCB98600A366E7 /* InputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputType.swift; sourceTree = "<group>"; };
+		1F64571326DCBB7200A366E7 /* UIFont+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
+		1F64571526DCC39400A366E7 /* OrderWallHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderWallHeaderVC.swift; sourceTree = "<group>"; };
+		1F64571726DCCD4A00A366E7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		1F64571926DCEBA500A366E7 /* OrderWallHeader+Intructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderWallHeader+Intructions.swift"; sourceTree = "<group>"; };
 		6C437B19640AD9D75FCB9F5A /* Pods_Test_Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F85C01171EEAC7E240DCAF1 /* Pods-Test Lottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Lottie.release.xcconfig"; path = "Target Support Files/Pods-Test Lottie/Pods-Test Lottie.release.xcconfig"; sourceTree = "<group>"; };
 		F9443F3F27175ED83CE890CB /* Pods-Test Lottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Lottie.debug.xcconfig"; path = "Target Support Files/Pods-Test Lottie/Pods-Test Lottie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,13 +89,19 @@
 			children = (
 				1F30293326D3F61A00BFED6B /* AppDelegate.swift */,
 				1F30293526D3F61A00BFED6B /* SceneDelegate.swift */,
-				1F30293726D3F61A00BFED6B /* ViewController.swift */,
+				1F30293726D3F61A00BFED6B /* LaunchScreenVC.swift */,
+				1F64571526DCC39400A366E7 /* OrderWallHeaderVC.swift */,
+				1F64571926DCEBA500A366E7 /* OrderWallHeader+Intructions.swift */,
 				1F30293926D3F61A00BFED6B /* Main.storyboard */,
 				1F30293C26D3F61C00BFED6B /* Assets.xcassets */,
 				1F30294826D3F86500BFED6B /* appstart_loading_smash.json */,
 				1F30294726D3F86400BFED6B /* appstart_loading_tray.json */,
 				1F30293E26D3F61C00BFED6B /* LaunchScreen.storyboard */,
+				1F64571726DCCD4A00A366E7 /* ListView.swift */,
 				1F30294126D3F61C00BFED6B /* Info.plist */,
+				1F64571126DCB98600A366E7 /* InputType.swift */,
+				1F64571326DCBB7200A366E7 /* UIFont+Additions.swift */,
+				1F1B636C26DE0213004C8DE6 /* GoogleService-Info.plist */,
 			);
 			path = "Test Lottie";
 			sourceTree = "<group>";
@@ -161,6 +179,7 @@
 				1F30294926D3F86500BFED6B /* appstart_loading_tray.json in Resources */,
 				1F30293D26D3F61C00BFED6B /* Assets.xcassets in Resources */,
 				1F30293B26D3F61A00BFED6B /* Main.storyboard in Resources */,
+				1F1B636D26DE0213004C8DE6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F30293826D3F61A00BFED6B /* ViewController.swift in Sources */,
+				1F64571626DCC39400A366E7 /* OrderWallHeaderVC.swift in Sources */,
+				1F64571226DCB98600A366E7 /* InputType.swift in Sources */,
+				1F64571A26DCEBA500A366E7 /* OrderWallHeader+Intructions.swift in Sources */,
+				1F64571426DCBB7200A366E7 /* UIFont+Additions.swift in Sources */,
+				1F64571826DCCD4A00A366E7 /* ListView.swift in Sources */,
+				1F30293826D3F61A00BFED6B /* LaunchScreenVC.swift in Sources */,
 				1F30293426D3F61A00BFED6B /* AppDelegate.swift in Sources */,
 				1F30293626D3F61A00BFED6B /* SceneDelegate.swift in Sources */,
 			);
